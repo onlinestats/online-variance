@@ -1,6 +1,6 @@
 {
   "name": "online-variance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Online variance calculation (piece-by-piece)",
   "main": "index.js",
   "scripts": {
