@@ -19,6 +19,8 @@ module.exports = function (params) {
       if (n > 1) {
         value = m2 / (n - ddof)
       }
+    } else if (Array.isArray(x)) {
+      x.forEach(el => variance(el))
     }
     return value
   }
